@@ -17,7 +17,7 @@ import com.math.fibonacci.exception.MathFunctionException;
 @Path(FibonacciResource.PATH)
 public class FibonacciResource {
 
-	public static final String PATH = "fibonacci1";
+	public static final String PATH = "fibonacci";
 	private static Pattern pattern = Pattern.compile(".*[^0-9].*");
 
 	@GET
